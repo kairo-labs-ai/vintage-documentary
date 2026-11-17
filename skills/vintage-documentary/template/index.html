@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width={{W}}, height={{H}}" />
+    <title>Documentary</title>
+    <link rel="stylesheet" href="assets/doc.css" />
+    <style>html, body { width: {{W}}px; height: {{H}}px; } #root { width: {{W}}px; height: {{H}}px; }</style>
+    <script>window.DOC_SIZE = { w: {{W}}, h: {{H}} };</script>
+    <script src="assets/gsap.min.js"></script>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="{{DURATION}}" data-width="{{W}}" data-height="{{H}}">
+      <div id="doc" data-layout-allow-occlusion data-layout-allow-overflow data-layout-allow-overlap></div>
+      <audio id="narration" src="{{AUDIO}}" data-start="0" data-duration="{{AUDDUR}}" data-track-index="2" data-volume="1"></audio>
+      {{MUSIC}}
+    </div>
+    <script src="words.js"></script>
+    <script src="images.js"></script>
+    <script src="assets/doc-engine.js"></script>
+    <script src="board.js"></script>
+    <script>window.__timelines = window.__timelines || {}; window.__timelines["main"] = DOC.tl();</script>
+  </body>
+</html>
