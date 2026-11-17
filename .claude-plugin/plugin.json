@@ -1,0 +1,10 @@
+{
+  "name": "vintage-documentary",
+  "version": "1.1.0",
+  "description": "Turn a script, a voiceover and real archive images into a vintage evidence-board documentary video (16:9 or 9:16), edited by Claude and rendered locally with HyperFrames.",
+  "author": { "name": "Kairo Labs", "url": "https://github.com/kairo-labs-ai" },
+  "homepage": "https://github.com/kairo-labs-ai/vintage-documentary",
+  "repository": "https://github.com/kairo-labs-ai/vintage-documentary",
+  "license": "MIT",
+  "keywords": ["documentary", "video", "hyperframes", "history", "youtube", "faceless"]
+}

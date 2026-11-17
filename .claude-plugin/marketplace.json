@@ -1,0 +1,15 @@
+{
+  "name": "kairo-labs",
+  "owner": { "name": "Kairo Labs", "url": "https://github.com/kairo-labs-ai" },
+  "metadata": { "description": "Free Claude Code skills by Kairo Labs." },
+  "plugins": [
+    {
+      "name": "vintage-documentary",
+      "source": "./",
+      "description": "Turn a script, a voiceover and real archive images into a vintage evidence-board documentary video, edited by Claude and rendered locally with HyperFrames.",
+      "version": "1.1.0",
+      "category": "video",
+      "keywords": ["documentary", "video", "hyperframes", "history", "youtube", "faceless"]
+    }
+  ]
+}
